@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.cfg",
+  "displayName": "Plugin Config Editor (Dynamic)",
+  "version": "0.1.0",
+  "apiVersion": "1.0.93",
+  "minApiVersion": "1.0.93",
+  "minBossVersion": "9.5.0",
+  "mainClass": "ai.rever.boss.plugin.dynamic.cfg.PluginCfgDynamicPlugin",
+  "type": "mixed",
+  "description": "Centralized panel listing every loaded plugin and surfacing its MCP tools, shortcuts and metadata - one view of what is loaded, with MCP tools to export the list and read individual fields",
+  "author": "choksi2212",
+  "url": "https://github.com/choksi2212/boss-plugin-plugin-config-editor",
+  "panel": {
+    "position": "left_bottom",
+    "priority": 88
+  },
+  "sandbox": {
+    "maxThreads": 4,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  },
+  "isolationMode": "out-of-process",
+  "fallback": "in-process"
+}
