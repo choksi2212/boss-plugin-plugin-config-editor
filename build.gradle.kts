@@ -12,7 +12,7 @@ group = "ai.rever.boss.plugin.dynamic"
 // metadata that BOSS exposes (loaded plugin records + MCP tools + shortcuts)
 // so a user can see what is loaded in one view, and the MCP tools can hand
 // the same list to an agent.
-version = "0.1.0"
+version = "0.1.1"
 
 // Auto-detect CI environment: CI=true uses the downloaded jar under build/downloaded-deps.
 val useLocalDependencies = System.getenv("CI") != "true"
